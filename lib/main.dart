@@ -26,7 +26,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String result = "0";
   String expression = "";
 
-  buttonPressed(String buttonText) {
+   buttonPressed(String buttonText) {
     setState(() {
       if (buttonText == "AC") {
         equation = "0";
@@ -49,8 +49,8 @@ class _MyHomePageState extends State<MyHomePage> {
         equation = (-1 * double.parse(equation)).toString();
         result = equation;
       } else if (buttonText == "%") {
-        equation = (double.parse(equation) / 100).toString();
-        result = equation;
+        result = (double.parse(equation) / 100).toString();
+        equation = (double.parse(equation)).toString() + buttonText;
       } else {
         if (equation == "0") {
           equation = buttonText;
