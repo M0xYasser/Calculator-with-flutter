@@ -10,6 +10,9 @@
 
 -![alt text](https://cdn.dribbble.com/users/5536359/screenshots/14673023/media/265933acb4562adb2930fcc6bc772a2a.jpg)
 
+## Note
+- Without icon image
+
 ## Thanks for DSC Al Azhar
 
 -![alt text](https://developers.google.com/community/dsc/images/dsc_lockup.png)
